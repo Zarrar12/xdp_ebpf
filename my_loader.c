@@ -22,7 +22,7 @@ static const char *__doc__ = "XDP loader\n"
 #include "./common/common_user_bpf_xdp.h"
 
 // static const char *default_filename = "xdp_prog_kern.o";
-static const char *default_filename = "xdpBpf.o";
+static const char *default_filename = "tail_call_bpf.o";
 // This section will be loaded and attached by default
 static const char *default_progsec = "xdpMain";
 // This section will be called through tail call by
